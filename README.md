@@ -2,7 +2,7 @@
 # YOLO-Pose-Bytetrack-Stgan
 
 YOLO-POSE was used for key point detection, Bytetrack for tracking, and Stgan for fall and other behavior recognition
- <img width="300"  src="./utils/figures/kpt.png"> |    <img width="300"  src="./utils/figures/kpt+track.png"> |     <img width="300"  src="./utils/figures/kpt+track+stgcn.png">
+ <img width="200" height="300" src="./utils/figures/kpt.png"> |    <img width="200" height="300"  src="./utils/figures/kpt+track.png"> |     <img width="200" height="300" src="./utils/figures/kpt+track+stgcn.png">
 
 =======
 # YOLO-Pose Multi-person Pose estimation model
