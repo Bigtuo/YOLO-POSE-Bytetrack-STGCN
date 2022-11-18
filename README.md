@@ -1,6 +1,7 @@
 # YOLO-Pose-Bytetrack-STGCN
 
-YOLO-POSE was used for key point detection, Bytetrack for tracking, and STGCN for fall and other behavior recognition
+YOLO-POSE was used for key point detection, Bytetrack for tracking, and STGCN for fall and other behavior recognition.
+
  <img width="200" height="300" src="./utils/figures/kpt.png"> |    <img width="200" height="300"  src="./utils/figures/kpt+track.png"> |     <img width="200" height="300" src="./utils/figures/kpt+track+stgcn.png">
  
  Key point detection, run the command below:
