@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # YOLO-Pose-Bytetrack-Stgan
+
 YOLO-POSE was used for key point detection, Bytetrack for tracking, and Stgan for fall and other behavior recognition
+
 =======
 # YOLO-Pose Multi-person Pose estimation model
 This repository is the official implementation of the paper ["**YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss**"](https://arxiv.org/abs/2204.06806) , accepted at Deep Learning for Efficient Computer Vision (ECV) workshop
