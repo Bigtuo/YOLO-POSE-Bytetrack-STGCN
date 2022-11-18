@@ -2,6 +2,20 @@
 
 YOLO-POSE was used for key point detection, Bytetrack for tracking, and Stgan for fall and other behavior recognition
  <img width="200" height="300" src="./utils/figures/kpt.png"> |    <img width="200" height="300"  src="./utils/figures/kpt+track.png"> |     <img width="200" height="300" src="./utils/figures/kpt+track+stgcn.png">
+ 
+ Key point detection, run the command below:
+```
+python detect.py --weights "yolov5m_pose_960_lite.pt" --kpt-label  --view-img
+```
+Key point detection+Bytetrack, run the command below:
+```
+python detect_track.py --weights "yolov5m_pose_960_lite.pt" --kpt-label  --view-img
+```
+Key point detection+Bytetrack+Stgcn, run the command below:
+```
+python detect_track_stgcn.py --weights "yolov5m_pose_960_lite.pt" --kpt-label  --view-img
+```
+
 
 # YOLO-Pose Multi-person Pose estimation model
 This repository is the official implementation of the paper ["**YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss**"](https://arxiv.org/abs/2204.06806) , accepted at Deep Learning for Efficient Computer Vision (ECV) workshop
