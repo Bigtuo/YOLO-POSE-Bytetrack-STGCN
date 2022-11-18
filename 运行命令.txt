@@ -1,0 +1,14 @@
+关键点yolopose网址：
+https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose
+lite效果优于基础版，基础版容易出现点漂移，原因未知
+
+测试显卡：NVIDIA TITAN Xp
+
+1、纯关键点检测（权重与视频路径已写入代码） 36ms
+python detect.py --kpt-label  --view-img
+
+2、关键点检测+bytetrack跟踪（权重与视频路径已写入代码）36-37ms
+python detect_track.py --kpt-label  --view-img
+
+3、关键点检测+bytetrack跟踪+stgcn行为预测（权重与视频路径已写入代码）37-38ms
+python detect_track_stgcn.py --kpt-label  --view-img
