@@ -16,7 +16,7 @@ Key point detection+Bytetrack+STGCN, run the command below:
 ```
 python detect_track_stgcn.py --weights "yolov5m_pose_960_lite.pt" --kpt-label  --view-img
 ```
-
+YOLOv7-Pose: [https://github.com/Bigtuo/YOLOv7-Pose-Bytetrack-STGCN]
 
 # YOLO-Pose Multi-person Pose estimation model
 This repository is the official implementation of the paper ["**YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss**"](https://arxiv.org/abs/2204.06806) , accepted at Deep Learning for Efficient Computer Vision (ECV) workshop
